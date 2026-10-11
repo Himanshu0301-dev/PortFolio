@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#050505">
+<meta name="description" content="Himanshu Kumar — full-stack developer and MCA student. A cinematic, interactive portfolio.">
+<title>Himanshu Kumar — Digital Portfolio</title>
+<script>document.documentElement.classList.add("loading")</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+<noscript><link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet"><style>.loader{display:none}.reveal,.stagger>*{opacity:1;transform:none}</style></noscript>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="scroll-progress"></div><div class="noise"></div><div class="ambient a"></div><div class="ambient b"></div><div class="ambient c"></div>
+
+<!-- Same cinematic loading-screen concept, rebuilt in monochrome -->
+<div class="loader" id="loader" aria-label="Loading portfolio">
+  <div class="loader-sweep"></div><div class="loader-orbit" aria-hidden="true"><i></i></div>
+  <div class="loader-corner tl">HK / <b>PORTFOLIO</b><br>EST. 2026</div><div class="loader-corner br">DIGITAL EXPERIENCE<br><b>INITIALIZING...</b></div>
+  <div class="loader-core"><div class="loader-kicker">A NEW EXPERIENCE BEGINS</div><div class="loader-brand">H<span>K</span>.</div><div class="loader-subtitle">HIMANSHU KUMAR / DEVELOPER</div>
+  <div class="loader-status"><span class="state" id="load-state">BOOTING INTERFACE</span><span id="load-number">00%</span></div><div class="load-track"><div class="load-bar" id="load-bar"></div></div>
+  <div class="loader-bottom"><span id="load-caption">RENDERING VISUAL SYSTEM</span><span class="equalizer" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></span><span>PLEASE WAIT</span></div></div>
+</div>
+
+<nav class="wrap" id="nav">
+  <a class="logo" href="#home">HK<span>.</span></a>
+  <ul id="nav-links"><li><a href="#home">Home</a></li><li><a href="#about">About</a></li><li><a href="#skills">Skills</a></li><li><a href="#projects">Projects</a></li><li><a href="#resume">Resume</a></li><li><a href="#contact">Contact</a></li></ul>
+  <div class="nav-right"><a class="nav-cta" href="#contact">LET'S CONNECT ↗</a><button class="menu" id="menu" aria-label="Toggle navigation" aria-expanded="false">☰</button></div>
+</nav>
+
+<main>
+<section class="hero wrap" id="home">
+  <div class="hero-copy">
+    <div class="hero-kicker mono"><span class="status-dot"></span> FULL-STACK DEVELOPER · MCA STUDENT</div>
+    <div class="mono">— 01 / INTRODUCTION</div>
+    <h1>FULL-STACK<span class="outline">DEVELOPER.</span></h1>
+    <div class="hero-role"><span id="typed">Building digital experiences</span> <span aria-hidden="true">▍</span></div>
+    <p>I'm Himanshu Kumar — a developer focused on building thoughtful web experiences, practical products, and clean interfaces. I enjoy turning ideas into real projects through code, experimentation, and continuous learning.</p>
+    <div class="hero-actions"><a class="btn primary" href="#projects">VIEW MY WORK ↘</a><a class="btn secondary" href="#about">EXPLORE PROFILE ↗</a></div>
+    <div class="social-inline"><a href="https://github.com/Himanshu0301-dev" target="_blank" rel="noopener noreferrer">GITHUB ↗</a><a href="https://www.linkedin.com/in/himanshu-kumar-93389823a/" target="_blank" rel="noopener noreferrer">LINKEDIN ↗</a><a href="mailto:himanshukumarsingh872@gmail.com">EMAIL ↗</a></div>
+  </div>
+  <div class="hero-visual" id="hero-visual">
+    <div class="orbit-dot"></div><div class="floating-label one">DESIGN / DEVELOP / DEPLOY</div><div class="floating-label two">CODE WITH INTENTION</div><div class="floating-label three">PORTFOLIO 2026</div>
+    <div class="portrait-frame" id="portrait-frame"><img src="assets/profile.jpg" alt="Portrait of Himanshu Kumar" fetchpriority="high" decoding="async"><div class="portrait-data"><div><strong>Himanshu Kumar</strong><small>FULL-STACK DEVELOPER · MCA STUDENT</small></div><span class="portrait-index">01 — 07</span></div></div>
+    <div class="terrain" aria-hidden="true"><svg viewBox="0 0 1000 180" preserveAspectRatio="none"><path d="M0 140 L35 125 58 130 95 95 123 117 154 72 185 110 224 88 258 132 288 100 318 117 351 70 384 119 410 102 442 130 475 84 505 119 535 90 566 127 600 66 635 115 665 95 701 133 730 83 763 119 800 72 832 113 865 88 900 125 933 100 965 129 1000 117"/><path class="dim" d="M0 150 L42 141 72 150 110 125 145 143 182 118 219 148 260 131 295 154 334 130 372 151 411 127 449 152 490 134 531 151 572 125 610 151 649 132 690 153 730 127 770 150 810 132 850 152 892 130 930 149 970 133 1000 144"/><path class="dim" d="M0 158 L55 151 98 161 145 145 190 162 236 149 282 163 326 147 371 162 416 148 462 164 508 148 554 162 600 147 646 163 692 148 738 163 784 147 830 162 876 148 922 162 966 150 1000 158"/></svg></div>
+    <div class="hero-meta"><span>EXPLORE</span><b>INNOVATE</b><span>LEARN</span><span>BUILD</span><span>GROW</span></div>
+  </div>
+</section>
+
+<section id="about" class="wrap reveal">
+  <div class="section-head"><div><div class="section-num">02 / PROFILE</div><h2>ABOUT <span>ME.</span></h2></div><div class="head-rule"></div><p>Building a stronger foundation, one project and one problem at a time.</p></div>
+  <div class="about-grid">
+    <article class="panel about-copy"><div class="terminal-line"><span>BASIC PROFILE / 001</span><span>● ONLINE</span></div><p>I'm Himanshu Kumar, a full-stack developer and MCA student interested in creating useful, responsive web applications. My work spans frontend experiences, backend fundamentals, databases, and practical project building.</p><p>I value learning by doing: breaking down complex problems, debugging carefully, and improving a product through iteration. This portfolio is a snapshot of my current skills and selected work.</p><div class="metrics"><div class="metric"><b>01+</b><span>PROJECTS IN PROGRESS</span></div><div class="metric"><b>Full</b><span>STACK INTEREST</span></div><div class="metric"><b>∞</b><span>ROOM TO LEARN</span></div></div></article>
+    <article class="panel info-card"><div class="info-list"><h3>Basic information ─</h3><div class="info-row"><span>Name</span><span>Himanshu Kumar</span></div><div class="info-row"><span>Field</span><span>Full-stack development</span></div><div class="info-row"><span>Education</span><span>MCA student</span></div><div class="info-row"><span>Location</span><span>Patna, Bihar, India</span></div><div class="info-row"><span>Focus</span><span>Web &amp; product building</span></div></div><div class="info-photo"><img src="assets/profile.jpg" alt="Himanshu Kumar portrait" loading="lazy" decoding="async"></div></article>
+  </div>
+</section>
+
+<section id="skills" class="wrap reveal">
+  <div class="section-head"><div><div class="section-num">03 / CAPABILITIES</div><h2>SKILLS &amp; <span>TOOLS.</span></h2></div><div class="head-rule"></div><p>Technologies I use and continue to strengthen as I build.</p></div>
+  <div class="skill-layout"><div class="skill-tabs" role="tablist" aria-label="Skill categories"><button class="skill-tab active" data-filter="all" role="tab" aria-selected="true">All capabilities</button><button class="skill-tab" data-filter="front" role="tab" aria-selected="false">Web development</button><button class="skill-tab" data-filter="back" role="tab" aria-selected="false">Programming</button><button class="skill-tab" data-filter="data" role="tab" aria-selected="false">Data &amp; databases</button><button class="skill-tab" data-filter="tools" role="tab" aria-selected="false">Tools &amp; workflow</button></div>
+  <div class="skill-grid" id="skill-grid">
+    <article class="skill-card" data-cat="front"><span class="skill-glyph">⌘</span><span>HTML5</span></article><article class="skill-card" data-cat="front"><span class="skill-glyph">▤</span><span>CSS3</span></article><article class="skill-card" data-cat="front"><span class="skill-glyph">JS</span><span>JavaScript</span></article><article class="skill-card" data-cat="front"><span class="skill-glyph">R</span><span>React.js</span></article>
+    <article class="skill-card" data-cat="front"><span class="skill-glyph">TW</span><span>Tailwind CSS</span></article><article class="skill-card" data-cat="back"><span class="skill-glyph">{ }</span><span>Node.js</span></article><article class="skill-card" data-cat="back"><span class="skill-glyph">EX</span><span>Express.js</span></article><article class="skill-card" data-cat="data"><span class="skill-glyph">◉</span><span>MongoDB</span></article>
+    <article class="skill-card" data-cat="data"><span class="skill-glyph">SQL</span><span>SQL / MySQL</span></article><article class="skill-card" data-cat="tools"><span class="skill-glyph">⌥</span><span>Git &amp; GitHub</span></article><article class="skill-card" data-cat="tools"><span class="skill-glyph">VS</span><span>VS Code</span></article><article class="skill-card" data-cat="tools"><span class="skill-glyph">↗</span><span>Debugging</span></article>
+  </div></div>
+</section>
+
+<section id="projects" class="wrap reveal">
+  <div class="section-head"><div><div class="section-num">04 / SELECTED WORK</div><h2>FEATURED <span>PROJECTS.</span></h2></div><div class="head-rule"></div><div><p>A focused look at my personal portfolio and interactive design experiments.</p><div class="project-controls" style="margin-top:12px"><button class="icon-button" id="project-prev" aria-label="Previous projects">←</button><button class="icon-button" id="project-next" aria-label="Next projects">→</button></div></div></div>
+  <div class="projects-grid stagger" id="projects-grid">
+    <article class="panel project-card" tabindex="0" role="button" data-project="portfolio"><div class="project-art"><span class="art-index">PROJECT / 01</span><span class="art-label">DIGITAL IDENTITY</span><span class="art-dot"></span></div><div class="project-body"><div class="project-meta">PERSONAL WEBSITE</div><h3>3D Portfolio</h3><p>An interactive portfolio experience exploring cinematic transitions, depth, motion, and responsive design.</p><div class="tags"><span class="tag">HTML</span><span class="tag">CSS 3D</span><span class="tag">JavaScript</span></div><div class="project-bottom"><span>VIEW DETAILS</span><span class="circle-arrow">↗</span></div></div></article>
+  </div>
+</section>
+
+<section class="wrap reveal" id="typography">
+  <div class="section-head"><div><div class="section-num">05 / DESIGN LANGUAGE</div><h2>TYPE IN <span>MOTION.</span></h2></div><div class="head-rule"></div><p>A restrained visual system inspired by editorial layouts, technical grids, and monochrome contrast.</p></div>
+  <div class="type-layout"><article class="panel type-intro"><div class="mono">VISUAL SYSTEM / 001</div><h3>Less noise.<br>More <span class="accent">signal.</span></h3><p>High contrast, generous spacing, precision lines, and subtle movement keep attention on the work itself.</p></article><div class="panel type-samples"><div class="type-sample"><div class="mono">DISPLAY / 01</div><div class="sample-word">BUILD.</div><div class="mono">MANROPE · 800</div></div><div class="type-sample"><div class="mono">MONO / 02</div><div class="sample-word">010101</div><div class="mono">DM MONO · 400</div></div><div class="type-sample"><div class="mono">OUTLINE / 03</div><div class="sample-word">DEPTH.</div><div class="mono">STROKE · 1PX</div></div><div class="type-sample"><div class="mono">SPACING / 04</div><div class="sample-word">F O C U S</div><div class="mono">LETTER SPACE</div></div></div></div>
+</section>
+
+<section id="resume" class="wrap reveal">
+  <div class="section-head"><div><div class="section-num">06 / EXPERIENCE SNAPSHOT</div><h2>THE <span>RESUME.</span></h2></div><div class="head-rule"></div><p>A quick view of my background. Open the image for the full-size version.</p></div>
+  <div class="panel resume-layout"><div class="resume-copy"><div class="mono">HIMANSHU KUMAR / CV</div><h3>Background, skills<br>&amp; selected work.</h3><p>My resume includes my profile summary, education, technical skills, projects, certifications, and other details. It is shown here as the image provided.</p><div class="hero-actions"><a class="btn primary" href="assets/resume.jpg" target="_blank" rel="noopener noreferrer">VIEW FULL RESUME ↗</a><a class="btn secondary" href="assets/resume.jpg" download="Himanshu-Kumar-Resume.jpg">SAVE RESUME ↓</a></div></div><a class="resume-preview" href="assets/resume.jpg" target="_blank" rel="noopener noreferrer" aria-label="Open full resume"><img src="assets/resume.jpg" alt="Himanshu Kumar resume preview" loading="lazy" decoding="async"><span>OPEN FULL RESUME ↗</span></a></div>
+</section>
+
+<section id="contact" class="wrap reveal">
+  <div class="section-head"><div><div class="section-num">07 / GET IN TOUCH</div><h2>CONTACT <span>ME.</span></h2></div><div class="head-rule"></div><p>Let's connect, exchange ideas, and build something useful.</p></div>
+  <div class="contact-layout"><div class="panel contact-info"><div class="mono">LET'S CONNECT / 001</div><h3>Have an idea?<br>Let's make it <span class="accent">real.</span></h3><p>For project discussions, collaboration, or professional opportunities, reach out through any of these channels.</p><a class="contact-link" href="mailto:himanshukumarsingh872@gmail.com"><span class="contact-icon">@</span><span><b>Email</b><small>himanshukumarsingh872@gmail.com</small></span></a><a class="contact-link" href="https://github.com/Himanshu0301-dev" target="_blank" rel="noopener noreferrer"><span class="contact-icon">GH</span><span><b>GitHub</b><small>github.com/Himanshu0301-dev</small></span></a><a class="contact-link" href="https://www.linkedin.com/in/himanshu-kumar-93389823a/" target="_blank" rel="noopener noreferrer"><span class="contact-icon">in</span><span><b>LinkedIn</b><small>linkedin.com/in/himanshu-kumar-93389823a</small></span></a></div>
+  <form class="panel contact-form" id="contact-form"><div class="field"><label for="name">Your name</label><input id="name" name="name" autocomplete="name" placeholder="Enter your name" required></div><div class="field"><label for="email">Your email</label><input id="email" name="email" type="email" autocomplete="email" placeholder="you@example.com" required></div><div class="field"><label for="message">Your message</label><textarea id="message" name="message" placeholder="Tell me what you're thinking..." required></textarea></div><button class="btn primary" type="submit">PREPARE EMAIL ↗</button><p class="form-note">This form opens your email app with the message filled in. It does not send or store data on this website.</p><div class="form-status" id="form-status" aria-live="polite"></div></form></div>
+</section>
+
+<section class="thanks"><div class="wrap"><div class="thanks-inner"><div class="thanks-mark"><span>HK / 2026</span></div><div class="thanks-title">Thank you<br>for watching<span style="color:#777">.</span></div><div class="thanks-quote">“Keep learning.<br>Keep building.<br>Keep improving.”<b>— Himanshu Kumar</b><div class="social-inline"><a href="https://github.com/Himanshu0301-dev" target="_blank" rel="noopener noreferrer">GH ↗</a><a href="https://www.linkedin.com/in/himanshu-kumar-93389823a/" target="_blank" rel="noopener noreferrer">IN ↗</a><a href="mailto:himanshukumarsingh872@gmail.com">MAIL ↗</a></div></div></div><div class="footer-bottom"><span>© <span id="year"></span> HIMANSHU KUMAR. ALL RIGHTS RESERVED.</span><a href="#home">↑ SCROLL TO TOP</a><span>DESIGNED &amp; DEVELOPED WITH INTENTION</span></div></div></section>
+</main>
+
+<div class="modal" id="project-modal" role="dialog" aria-modal="true" aria-labelledby="modal-title"><div class="modal-card"><div class="modal-top"><div class="mono" id="modal-kicker">PROJECT / DETAILS</div><button class="modal-close" id="modal-close" aria-label="Close project details">×</button></div><h3 id="modal-title">Project</h3><p id="modal-description"></p><div class="tags" id="modal-tags"></div><div class="modal-actions" id="modal-actions" style="margin-top:20px"></div></div></div>
+
+<script src="script.js" defer></script>
+
+</body>
+</html>
