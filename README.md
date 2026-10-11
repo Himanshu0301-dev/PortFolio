@@ -4,10 +4,7 @@
 
 ✦ Minimal Design · 🎬 Cinematic Motion · 💻 Developer-Focused Storytelling ✦
 
-""HTML5" (https://img.shields.io/badge/HTML5-Structure-E34F26?style=for-the-badge&logo=html5&logoColor=white)" (https://developer.mozilla.org/en-US/docs/Web/HTML)
-""CSS3" (https://img.shields.io/badge/CSS3-Styling-1572B6?style=for-the-badge&logo=css3&logoColor=white)" (https://developer.mozilla.org/en-US/docs/Web/CSS)
-""JavaScript" (https://img.shields.io/badge/JavaScript-Interactions-F7DF1E?style=for-the-badge&logo=javascript&logoColor=111111)" (https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-""Responsive" (https://img.shields.io/badge/Responsive-Mobile--Friendly-111111?style=for-the-badge&logo=googlechrome&logoColor=white)" (https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Responsive)
+
 
 "🌐 View Live Portfolio" (https://himanshu0301-dev.github.io/PortFolio/) · "💻 GitHub Profile" (https://github.com/Himanshu0301-dev) · "💼 LinkedIn" (https://www.linkedin.com/in/himanshu-kumar-93389823a/)
 
