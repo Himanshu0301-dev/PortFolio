@@ -6,7 +6,7 @@
 
 
 
-"🌐 View Live Portfolio" (https://himanshu0301-dev.github.io/PortFolio/) · "💻 GitHub Profile" (https://github.com/Himanshu0301-dev) · "💼 LinkedIn" (https://www.linkedin.com/in/himanshu-kumar-93389823a/)
+"🌐 View Live Portfolio" (https://himanshu0301-dev.github.io/PortFolio/) ·
 
 </div>---
 
